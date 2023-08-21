@@ -1,13 +1,87 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.list__item {
+  margin: 1%;
+  width: 25%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn__wrapper {
+  font-family: 'Roboto',sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background-color: #151b29;
+}
+.button1 {
+  background: none;
+  color: #ffa260;
+  border:2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s;
+  border-color: 0.25s;
+  box-shadow: 0.25s;
+  transform: 0.25s;
+}
+.button1:hover{
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow:0 0,5em 0.5em -0.4em #f1ff5c;
+  transform: translate Y(-0.25em);
+  cursor: pointer;
+}
+.button2{
+  margin:50px;
+  background: none;
+  color: #5D35A3;
+  border:2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: color 0.25s;
+  border-color: 0.25s;
+  box-shadow: 0.25s;
+  transform: 0.25s;
+}
+.button2:hover{
+  border-color: #D38FF8;
+  color: white;
+  box-shadow:0 0,5em 0.5em -0.4em #D38FF8;
+  transform: translate Y(-0.25em);
+  cursor: pointer;
+}
+
+.title__wrapper {
+  font-family: 'Roboto',sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background-color: #151b29;
+}
+
+.title {
+  color: white;
+  font-size: 80px;
 }
